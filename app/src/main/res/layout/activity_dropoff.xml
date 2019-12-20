@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="@dimen/dimen_16dp"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <ImageButton
+        android:id="@+id/img_back_arrow"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/ic_left_arrow"
+        android:scaleType="fitCenter"/>
+    <TextView
+        android:textSize="@dimen/text_size_24sp"
+        android:textStyle="bold"
+        android:textColor="@color/Nero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_32dp"
+        android:layout_marginStart="10dp"
+        android:text="Drop-off" />
+
+    <RelativeLayout
+        android:gravity="center"
+        android:background="@drawable/background_lavender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_32dp">
+
+        <ImageView
+            android:id="@+id/img_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_search_black"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/dimen_16dp"
+            android:layout_marginLeft="@dimen/dimen_16dp" />
+
+        <EditText
+            android:id="@+id/et_location_search"
+            android:textSize="@dimen/text_size_16sp"
+            android:textStyle="bold"
+            android:background="@drawable/background_lavender"
+            android:padding="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="e.g.Mancheser Picadilly"
+            android:drawablePadding="@dimen/dimen_12dp"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/img_search"
+            android:layout_toRightOf="@id/img_search"
+            android:focusableInTouchMode="true"/>
+    </RelativeLayout>
+
+</LinearLayout>

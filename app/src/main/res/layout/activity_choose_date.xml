@@ -1,0 +1,51 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:calendar="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".activity.ChooseDateActivity">
+
+
+    <ImageView
+        android:layout_marginTop="@dimen/text_size_12sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_close_black_24dp"
+        android:id="@+id/multi"
+        android:layout_marginLeft="@dimen/text_size_20sp"/>
+
+
+
+    <TextView
+        android:layout_below="@id/multi"
+        android:id="@+id/calendartext"
+        android:textSize="@dimen/text_size_28sp"
+        android:textStyle="bold"
+        android:textColor="#0F0E0E"
+        android:paddingTop="@dimen/dimen_8dp"
+        android:paddingBottom="@dimen/dimen_8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="When are you going?"
+        android:layout_marginTop="@dimen/text_size_12sp"
+        android:paddingStart="@dimen/dimen_24dp"
+        android:paddingEnd="@dimen/dimen_24dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cal"
+        android:layout_below="@+id/calendartext"
+        android:id="@+id/calpng"
+        />
+
+    <com.jrteamtech.clonebla.calendarlistview.DayPickerView
+        android:layout_below="@+id/calpng"
+        android:id="@+id/pickerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        calendar:drawRoundRect="true"/>
+
+</RelativeLayout>

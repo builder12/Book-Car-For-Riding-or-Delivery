@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.PostalAddressActivity">
+
+     <include
+    android:id="@+id/layout_toolbar"
+    layout="@layout/toolbar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/dimen_24dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Street address"
+            android:id="@+id/streetaddress"/>
+
+        <TextView
+            android:layout_marginTop="@dimen/dimen_20dp"
+            android:textSize="@dimen/dimen_12dp"
+            android:textColor="@color/design_dark_default_color_background"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Postaladdress"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.PaymentActivity"
+    android:padding="20dp">
+
+    <ImageButton
+        android:id="@+id/img_back_arrow"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/ic_left_arrow"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is our recommended price per seat. Is it OK for you?"
+        android:textSize="12dp"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:id="@+id/price_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="$192"
+        android:textSize="50sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/src_tar_city_name_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="United States >> United Kingdom"
+        android:textColor="@android:color/black"
+        android:textSize="11sp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/continue_btn"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/login_btn_background"
+        android:text="Continue"
+        android:textColor="@android:color/white"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <TextView
+        android:id="@+id/cancel_agree_btn"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="I don't agree"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:textColor="@android:color/holo_blue_light"
+        android:gravity="center"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>

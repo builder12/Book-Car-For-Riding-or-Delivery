@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/dimen_20dp"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What year was it registered?"
+        android:textColor="@color/design_dark_default_color_background"
+        android:textStyle="bold"
+        android:textSize="@dimen/dimen_20dp"/>
+        <TextView
+            android:layout_marginTop="@dimen/dimen_8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Passengers like to know if your car is modern or something a bit more vintage."/>
+
+
+        <EditText
+            android:layout_marginTop="@dimen/dimen_80dp"
+            android:layout_width="match_parent"
+            android:hint="Enter year(YYYY)"
+            android:layout_height="wrap_content"
+            android:id="@+id/enteryear"/>
+        <Button
+            android:layout_marginTop="@dimen/dimen_16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_primary"
+            android:text="Sumbit"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+</LinearLayout>

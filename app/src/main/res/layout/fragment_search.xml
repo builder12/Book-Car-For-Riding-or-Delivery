@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="@dimen/dimen_18dp"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:textSize="@dimen/text_size_28sp"
+        android:textStyle="bold"
+        android:textColor="@color/primaryTextColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_find_a_ride" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_leaving_from"
+                android:textSize="@dimen/text_size_22sp"
+                android:textColor="@android:color/black"
+                android:background="@drawable/background_lavender"
+                android:paddingStart="@dimen/dimen_16dp"
+                android:paddingEnd="@dimen/dimen_16dp"
+                android:paddingTop="@dimen/dimen_12dp"
+                android:paddingBottom="@dimen/dimen_12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:hint="@string/leaving_from"
+                android:clickable="true"
+                android:focusable="true"/>
+
+            <TextView
+                android:id="@+id/tv_going_to"
+                android:textSize="@dimen/text_size_22sp"
+                android:textColor="@android:color/black"
+                android:background="@drawable/background_lavender"
+                android:paddingStart="@dimen/dimen_16dp"
+                android:paddingEnd="@dimen/dimen_16dp"
+                android:paddingTop="@dimen/dimen_12dp"
+                android:paddingBottom="@dimen/dimen_12dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:hint="@string/going_to"
+                android:clickable="true"
+                android:focusable="true" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/exchange_location_btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/circle_white_bg"
+            android:src="@drawable/exchange_icon"
+            android:padding="5dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="20dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+
+    <View
+        android:background="@color/LinkWater"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/view_heght_1dp"
+        android:layout_marginTop="@dimen/dimen_16dp" />
+
+    <LinearLayout
+        android:id="@+id/pick_date_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        android:clickable="true"
+        android:focusable="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/date_and_time" />
+
+        <TextView
+            android:id="@+id/calendardate"
+            android:textSize="@dimen/text_size_16sp"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_4dp"
+            android:text="@string/today" />
+
+    </LinearLayout>
+
+    <View
+        android:background="@color/LinkWater"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/view_heght_1dp"
+        android:layout_marginTop="@dimen/dimen_12dp" />
+
+    <ListView
+        android:id="@+id/ride_history_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+    <Button
+        android:id="@+id/btnSearch"
+        android:textSize="@dimen/text_size_14sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:background="@drawable/background_primary"
+        android:padding="@dimen/dimen_16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_16dp"
+        android:text="@string/action_search"
+        android:textAllCaps="true"
+        />
+</LinearLayout>

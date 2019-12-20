@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    tools:context=".activity.AddPreferenceActivity"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <include
+        android:id="@+id/layout_toolbar"
+        layout="@layout/toolbar"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/dimen_8dp"
+        android:layout_marginTop="@dimen/dimen_16dp"
+        >
+
+        <ImageView
+            android:id="@+id/chat_img"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/chat_1"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="20dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chattiness"
+                />
+
+            <androidx.appcompat.widget.AppCompatSpinner
+                android:visibility="visible"
+                android:id="@+id/chattiness"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:ms_multiline="false"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/dimen_8dp"
+     >
+
+        <ImageView
+            android:id="@+id/smoking_img"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/smoking_1"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Smoking"
+                />
+
+            <androidx.appcompat.widget.AppCompatSpinner
+                android:visibility="visible"
+                android:id="@+id/smoking"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:ms_multiline="false"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/dimen_8dp"
+      >
+
+        <ImageView
+            android:id="@+id/music_img"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/music_1"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Music"
+                />
+
+            <androidx.appcompat.widget.AppCompatSpinner
+                android:visibility="visible"
+                android:id="@+id/music"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:ms_multiline="false"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/dimen_8dp"
+       >
+
+        <ImageView
+            android:id="@+id/pet_img"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/pets_1"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pets"
+                />
+
+            <androidx.appcompat.widget.AppCompatSpinner
+                android:visibility="visible"
+                android:id="@+id/pets"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:ms_multiline="false"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/save_preferences"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_primary"
+        android:text="Save preferences"
+        android:textColor="@color/white"
+        android:layout_marginTop="@dimen/dimen_32dp"
+        android:layout_marginLeft="@dimen/dimen_16dp"
+        android:layout_marginRight="@dimen/dimen_16dp"/>
+</LinearLayout>

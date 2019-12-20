@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.PlacesViewActivity"
+    android:paddingStart="10dp"
+    android:paddingEnd="10dp"
+    android:paddingTop="20dp"
+    android:paddingBottom="10dp">
+
+    <ImageButton
+        android:id="@+id/img_back_arrow"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/ic_left_arrow"
+        android:scaleType="fitCenter"/>
+
+    <TextView
+        android:id="@+id/header_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Great! Here are the most popular places to stop in these\nlocations"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="13dp"
+        android:layout_below="@+id/img_back_arrow"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/confirm_btn"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/login_btn_background"
+        android:text="CONFIRM"
+        android:textSize="10dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

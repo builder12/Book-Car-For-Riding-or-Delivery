@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="google_map_api_key">AIzaSyALThamZB2MCS-PS2zgcR3-BG3XujFLJzo</string>
+    <string name="sans_serif" translatable="false">sans-serif</string>
+    <string name="Postaladdress">We just need a postal address so the postman can find you.</string>
+
+    <string name="twodistance">Centre Street, London -> Livepool John Lennon Airport (Stop 3), LiverPool</string>
+
+
+    <string name="field_required">This field is required</string>
+    <string name="email_required"> Please enter a valid email address. </string>
+    <string name="password_required">  Choose a password of min. 8 characters. </string>
+    <string name="confrimpassword_required">   Password must match </string>
+    <string name="_0_0_500">0\/0\-500</string>
+    <string name="_12_00">12:00</string>
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_activity_chooser_view_see_all">See all</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_capital_off">OFF</string>
+    <string name="abc_capital_on">ON</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">space</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Search…</string>
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="action_edit_my_details">Edit my details</string>
+
+    <string name="Licenses_sentence1">The MIT License (MIT)
+Copyright (c) 2014 VK.com
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+</string>
+    <string name="Licenses_sentence2">Copyright 3DSView
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+http://www.apache.org/licenses/LICENSE-2.0
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+ </string>
+    <string name="Licenses_sentence3">Copyright 2013 Jake Wharton
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+http://www.apache.org/licenses/LICENSE-2.0
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.  </string>
+    <string name="Licenses_sentence4">Copyright 2008 Google Inc.
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+http://www.apache.org/licenses/LICENSE-2.0
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+</string>
+    <string name="Linceses_sentence5">Copyright 2012 Square, Inc. Copyright 2010 Google, Inc.
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+http://www.apache.org/licenses/LICENSE-2.0
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License. </string>
+    <string name="Linces_sentence6">The PayPal Android SDK Sample App is released under the BSD License:
+Inc.
+Copyright (c) 2014-2016 PayPal Holdings,
+All rights reserved.
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer. 2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+</string>
+    <string name="linces_sentence7">Copyright 2012 Jake Wharton Copyright 2011 Patrik Akerfeldt Copyright 2011 Francisco Figueiredo Jr.
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+http://www.apache.org/licenses/LICENSE-2.0
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+</string>
+    <string name="linces_sentence8">Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+http://www.apache.org/licenses/LICENSE-2.0
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+</string>
+    <string name="linces_sentence9">Copyright 2013 Square, Inc.
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+http://www.apache.org/licenses/LICENSE-2.0
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+</string>
+    <string name="linces_sentence10">Copyright 2013 Square, Inc.
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+http://www.apache.org/licenses/LICENSE-2.0
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+</string>
+    <string name="linces_sentence11">Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+http://www.apache.org/licenses/LICENSE-2.0
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+</string>
+    <string name="linces_sentence12">Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+http://www.apache.org/licenses/LICENSE-2.0
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+</string>
+    <string name="linces_sentence13">Except as otherwise noted, the Facebook SDK for Android is licensed under the Facebook Platform License (https://github.com/facebook/facebook-android-sdk/blob/master/LICENSE.txt).
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+</string>
+    <string name="linces_sentence14"></string>
+
+
+    <string name="transfer">Here you can find a list of the transfers that are in progress of have heen successfully completed.</string>
+    <string name="bankdetails">To get your passengers payments, please tell us how you want us to send the money.</string>
+    <string name="termsconditions">   </string>
+    <string name="paypal">If you don\u0027t yet have a PayPal account,enter your email address and you\u0027ll have receive an email enabling you to create one.</string>
+    <string name="bankaccount">Get your money directly to the bank account of your choice. you\u0027ll see it in your account in 1-5 weekdays.</string>
+    <string name="paymenthistory">Here you can find a list of your payments made on BlaBlaCar, as well as any pending or completed refunds.</string>
+    <string name="awaitingtransfers">We automatically send your money 48 hours after departure time. You\u0027ll see the money in your bank or PayPal account in 1 to 5 weekdays.</string>
+
+    <string name="action_edit_my_email">Edit my email</string>
+    <string name="action_edit_my_photo">Edit my photo</string>
+    <string name="action_edit_my_phone">Edit my phone</string>
+    <string name="action_inbox">Inbox</string>
+    <string name="action_offer">Offer</string>
+    <string name="action_profile">Profile</string>
+    <string name="action_rides">Rides</string>
+    <string name="action_search">Search</string>
+    <string name="activity_name">activity_name</string>
+    <string name="add_stopovers_and_get_more">Add stopovers and get more co-travellers</string>
+    <string name="address">NH360 , Chikhali, Gujrat 396521 ,india -&gt; Unnnamed Road, Kapadia Chal, Valsad, Gujrat 396001, India</string>
+    <string name="already_a_member_login">already a member? log in</string>
+    <string name="alredy_a_member_login">Alrady a member login</string>
+    <string name="and">and</string>
+    <string name="app_name">BlaBlaCar</string>
+    <string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="bottom_sheet_behavior">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
+    <string name="by_sigin_up_with_email">By sigin up with email</string>
+    <string name="by_sign_in_up_with_email">By sign in up with email or Facebook, you accept the</string>
+    <string name="character_counter_content_description">Characters entered %1$d of %2$d</string>
+    <string name="character_counter_overflowed_content_description">Character limit exceeded %1$d of %2$d</string>
+    <string name="character_counter_pattern">%1$d / %2$d</string>
+    <string name="chip_text">Chip text</string>
+    <string name="clear_text_end_icon_content_description">Clear text</string>
+    <string name="confirm">Confirm</string>
+    <string name="create_a_ride_alert">Create a ride alert</string>
+    <string name="date_and_time">Date &amp; Time</string>
+    <string name="do_you_want_to_add_stopvers">Do you want to add stopovers?</string>
+    <string name="drop_off">Drop-off</string>
+    <string name="e_g_manchester_picadilly">e.g Manchester Picadilly</string>
+    <string name="email">E-mail</string>
+    <string name="exposed_dropdown_menu_content_description">Show dropdown menu</string>
+    <string name="fab_transformation_scrim_behavior">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
+    <string name="fab_transformation_sheet_behavior">com.google.android.material.transformation.FabTransformationSheetBehavior</string>
+    <string name="female">Female</string>
+    <string name="first_name">First name</string>
+    <string name="forgot_your_password">forgot your password?</string>
+    <string name="gender">Gender</string>
+    <string name="going_to">Going to</string>
+    <string name="have_not_received_your">Haven\'t received your SMS yet? Don\'t worry!</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hide_bottom_view_on_scroll_behavior">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
+    <string name="hint_verification_code">----</string>
+    <string name="icon_content_description">Dialog Icon</string>
+    <string name="it_can_take_up_to">It can take up to 15 minutes depending on your provider.</string>
+    <string name="it_shows_that_you">It shows that you can be contacted quickly to plan a ride share and that you are trustworthy &amp; reliable. It\'s an important part of being a member of the community! </string>
+    <string name="just_one_thing">Just one thing</string>
+    <string name="label_about">About</string>
+    <string name="label_about_you">About You</string>
+    <string name="label_account">Account</string>
+    <string name="label_add_car">Add a car</string>
+    <string name="label_add_mobile">Add mobile</string>
+    <string name="label_add_phone">Add my phone</string>
+    <string name="label_add_preference">Add my preference</string>
+    <string name="label_available_funds">Available Funds</string>
+    <string name="label_back_details">Bank Details</string>
+    <string name="label_car">Car</string>
+    <string name="label_change_password">Change Password</string>
+    <string name="label_choose_profile_picture">Choose Profile Picture</string>
+    <string name="label_continue">Continue</string>
+    <string name="label_current">Current</string>
+    <string name="label_detail">Details</string>
+    <string name="label_edit_profile">Edit Profile</string>
+    <string name="label_email">Email</string>
+    <string name="label_find_a_ride">Find a ride</string>
+    <string name="label_find_a_where">Where do you want to go?</string>
+    <string name="label_find_ride">Find Ride</string>
+    <string name="label_find">Find</string>
+    <string name="label_find_delivery">Find Delivery</string>
+    <string name="label_first_name">First Name</string>
+    <string name="label_gender">Gender</string>
+    <string name="label_help">Help</string>
+    <string name="label_history">History</string>
+    <string name="label_last_name">Last Name</string>
+    <string name="label_licenses">Licenses</string>
+    <string name="label_log_in">Log In</string>
+    <string name="label_login">Log in</string>
+    <string name="label_logout">Logout</string>
+    <string name="label_message">Messages</string>
+    <string name="label_mini_bio">Write my mini bio</string>
+    <string name="label_mobile_number">Mobile number</string>
+    <string name="label_money">Money</string>
+    <string name="label_no_offered_rides">You have no recent ride offers. They are automatically archived after 20 days.</string>
+    <string name="label_notification">Notifications</string>
+    <string name="label_notification_and_communication">Notification &amp; Communication</string>
+    <string name="label_notification_content">Notification Content</string>
+    <string name="label_notification_title">Notification Title</string>
+    <string name="label_number_plate">Number Plate</string>
+    <string name="label_offer_ride">Offer Ride</string>
+    <string name="label_offer_delivery">Offer Delivery</string>
+    <string name="label_offer">Offer</string>
+    <string name="label_offered_rides">Your Offered Rides</string>
+    <string name="label_past_transfers">Past Transfers</string>
+    <string name="label_payment">Payment</string>
+    <string name="label_phone_number">Phone Number</string>
+    <string name="label_postal_address">Postal Address</string>
+    <string name="label_preference">Preferences</string>
+    <string name="label_privacy_policy">Privacy Policy</string>
+    <string name="label_save_email">Save Email</string>
+    <string name="label_save_mobile_number">Save Mobile Number</string>
+    <string name="label_save_profile_info">Save Profile Info</string>
+    <string name="label_see_archived_rides">See Archived Rides</string>
+    <string name="label_see_public_profile">See my public profile</string>
+    <string name="label_see_rating_you_left">See Rating You Left</string>
+    <string name="label_signUp">Sign up</string>
+    <string name="label_sign_up">Sign Up</string>
+    <string name="label_skip">Skip</string>
+    <string name="label_terms_conditions">Terms &amp; Conditions</string>
+    <string name="label_user_name">Username</string>
+    <string name="label_user_status">User Status</string>
+    <string name="label_verification">Verification</string>
+    <string name="label_verify_email">Verify abc@gmail.com</string>
+    <string name="label_verify_id">Verify my ID</string>
+    <string name="label_verify_mobile">Verify mobile</string>
+    <string name="label_your_bio">Your Bio</string>
+    <string name="label_your_car_details">Your Car Details</string>
+    <string name="label_your_number_plate">What\'s your number plate?</string>
+    <string name="label_your_rides">Your Rides</string>
+    <string name="label_your_status">Your Status</string>
+    <string name="last_name">Last name</string>
+    <string name="leaving_from">Leaving from</string>
+    <string name="login">log in</string>
+    <string name="login_in_with_facebook">log in with facebook</string>
+    <string name="male">Male</string>
+    <string name="mtrl_badge_numberless_content_description">New notification</string>
+    <string name="mtrl_chip_close_icon_content_description">Remove %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_suffix">%1$d%2$s</string>
+    <string name="mtrl_picker_cancel">@android:string/cancel</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_format">MMM dd, yyyy</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Select a Date</string>
+    <string name="mtrl_picker_date_header_unselected">Selected Date</string>
+    <string name="mtrl_picker_range_header_selected">%1$s - %2$s</string>
+    <string name="mtrl_picker_range_header_title">Select a Date Range</string>
+    <string name="mtrl_picker_range_header_unselected">Start Date - End Date</string>
+    <string name="no_rides_yet_for_this_day">No rides yet for this day.</string>
+    <string name="not_a_member_yet">not a member yet? join for free</string>
+    <string name="or">or</string>
+    <string name="password">Password</string>
+    <string name="password_toggle_content_description">Show password</string>
+    <string name="path_password_eye">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
+    <string name="path_password_eye_mask_strike_through">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_eye_mask_visible">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_strike_through">M3.27,4.27 L19.74,20.74</string>
+    <string name="phone_number">Phone number</string>
+    <string name="pick_up">Pick-up</string>
+    <string name="please_enter_the_email">Please enter the email you signed up with. We will send you a link to change your password.</string>
+    <string name="please_enter_the_four_digit_num">Please enter the 4 digit code you received by SMS</string>
+    <string name="please_verify_your_number">Please verify your mobile number</string>
+    <string name="privacy_policy"> Privacy Policy </string>
+    <string name="region">Region</string>
+    <string name="search_menu_title">Search</string>
+    <string name="send_me_vouchers">Send me vouchers, travel ideas, innovation updates and invitations to exclusive events!</string>
+    <string name="sign_up_with_your_email">sign up with your email</string>
+    <string name="station_road_or_the_bridge_cafe">Station Road or The Bridge Cafe</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="string_carpooling">Carpooling takes the trek out of the journey.</string>
+    <string name="string_currently_no_msg">You currently have no messages. When you receive message from other member, you can click on their photo to see their profile and bio.</string>
+    <string name="string_going_somewhere">Going Somewhere?</string>
+    <string name="string_number_plate">We\'ll onlt share it with passengers who book with you.</string>
+    <string name="string_share_travel_cost">Share your travel cost with our community.</string>
+    <string name="submit">Submit</string>
+    <string name="t_cs">  T&amp;Cs  </string>
+    <string name="time">12:30</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_home">Home</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="today">Today, 08:00</string>
+    <string name="use_current_location">Use Current location</string>
+    <string name="verify">verify</string>
+    <string name="what_time_will_you_pick">What time will you pick passengers up?</string>
+    <string name="when_are_you_going">When are you going?</string>
+    <string name="why_verify_your_phone_number">Why verify your phone number ?</string>
+    <string name="year_country">Country</string>
+    <string name="year_of_birth">Year of birth</string>
+</resources>

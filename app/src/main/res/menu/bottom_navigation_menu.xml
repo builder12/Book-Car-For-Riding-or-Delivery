@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_quotes" android:id="@+id/action_rides" android:title="@string/action_rides" />
+    <item android:icon="@drawable/ic_search" android:id="@+id/action_search" android:title="@string/action_search" />
+    <item android:icon="@drawable/ic_offers" android:id="@+id/action_offer" android:title="@string/action_offer" />
+    <item android:icon="@drawable/ic_inbox" android:id="@+id/action_inbox" android:title="@string/action_inbox" />
+    <item android:icon="@drawable/ic_profile" android:id="@+id/action_profile" android:title="@string/action_profile" />
+</menu>

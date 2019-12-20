@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="vertical"
+     >
+
+     <include
+         android:id="@+id/layout_toolbar"
+         layout="@layout/toolbar"/>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical"
+         android:padding="@dimen/dimen_20dp">
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="What color is it?"
+         android:textColor="@color/design_dark_default_color_background"
+         android:textSize="@dimen/dimen_20dp"
+         android:textStyle="bold"/>
+
+
+         <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="30dp"
+             android:orientation="horizontal"
+             android:layout_marginTop="@dimen/dimen_20dp">
+
+
+             <ImageView
+                 android:id="@+id/profileimg"
+                 android:layout_width="50dp"
+                 android:layout_height="50dp"
+                 android:layout_gravity="center"
+                 android:background="@drawable/ic_passenger_m"/>
+
+             <TextView
+                 android:id="@+id/profiletxt"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="Black"
+                 android:layout_gravity="center"
+                 android:textColor="@color/design_dark_default_color_background"
+                 android:textStyle="bold"
+                 android:layout_toEndOf="@+id/profileimg"
+                 android:layout_centerVertical="true"/>
+
+             <RadioButton
+                 android:id="@+id/radio"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentEnd="true"
+                 android:layout_centerVertical="true"/>
+
+         </RelativeLayout>
+
+
+
+     </LinearLayout>
+
+
+
+ </LinearLayout>
+
+
+
+
+
+</ScrollView>

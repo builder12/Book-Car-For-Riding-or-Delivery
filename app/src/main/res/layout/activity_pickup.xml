@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="@dimen/dimen_16dp"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@+id/img_back_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_close_button"
+        android:contentDescription="@null" />
+    <TextView
+        android:textSize="@dimen/text_size_24sp"
+        android:textStyle="bold"
+        android:textColor="@color/Nero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_32dp"
+        android:text="@string/pick_up" />
+    <RelativeLayout
+        android:gravity="center"
+        android:background="@drawable/background_lavender"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_32dp">
+        <ImageView
+            android:id="@+id/img_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_search_black"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/dimen_16dp"
+            android:layout_marginLeft="@dimen/dimen_16dp" />
+        <com.google.android.material.textfield.TextInputEditText
+            android:textSize="@dimen/text_size_16sp"
+            android:textStyle="bold"
+            android:id="@+id/edt_location_search"
+            android:background="@drawable/background_lavender"
+            android:padding="@dimen/dimen_16dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/e_g_manchester_picadilly"
+            android:drawablePadding="@dimen/dimen_12dp"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/img_search"
+            android:layout_toRightOf="@id/img_search" />
+    </RelativeLayout>
+
+</LinearLayout>

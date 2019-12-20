@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.BankDetailsActivity"
+    android:background="#cccdd0">
+
+    <include
+        android:id="@+id/layout_toolbar"
+        layout="@layout/toolbar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/dimen_32dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bankdetails"
+        android:textColor="@color/design_dark_default_color_background"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:padding="@dimen/dimen_24dp"
+        android:layout_marginStart="@dimen/dimen_32dp"
+        android:layout_marginEnd="@dimen/dimen_32dp"
+       >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_bank_detail"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bank transfer"
+                android:textColor="@color/design_dark_default_color_background"
+                />
+
+            <TextView
+                android:textColor="@color/design_dark_default_color_background"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter your bank account details"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ADD MY BANK DETAILS"
+                android:textColor="@color/colorPrimary"
+                android:layout_gravity="end"
+                android:id="@+id/addbankdetails"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:padding="@dimen/dimen_16dp"
+        android:layout_marginStart="@dimen/dimen_32dp"
+        android:layout_marginEnd="@dimen/dimen_32dp"
+        android:layout_marginTop="@dimen/dimen_8dp"
+        >
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:background="@drawable/paypal"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PayPal"
+                android:textColor="@color/design_dark_default_color_background"
+                />
+
+            <TextView
+                android:textColor="@color/design_dark_default_color_background"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add your PayPal account by entering your email address"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ADD MY BANK DETAILS"
+                android:textColor="@color/colorPrimary"
+                android:layout_gravity="end"
+                android:id="@+id/addmyaccount"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".activity.PicUpTimePassengersActivity">
+
+
+    <ImageView
+        android:layout_marginTop="@dimen/text_size_28sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_close_black_24dp"
+        android:id="@+id/multi"
+        android:layout_marginLeft="@dimen/text_size_28sp"/>
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:background="@drawable/ipc_precise_address_passenger"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/design_dark_default_color_background"
+        android:layout_marginLeft="@dimen/text_size_12sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="By giving a precise address, you'll see drivers who can pick you up nearby."/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:gravity="center|bottom">
+
+    </LinearLayout>
+    <Button
+        android:textSize="@dimen/text_size_16sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_gravity="center_horizontal|center"
+        android:id="@+id/gotit"
+        android:background="@drawable/background_primary"
+        android:padding="@dimen/dimen_16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Got it!"
+        android:textAllCaps="false"
+        android:layout_marginBottom="@dimen/dimen_24dp"
+
+
+        />
+</LinearLayout>
