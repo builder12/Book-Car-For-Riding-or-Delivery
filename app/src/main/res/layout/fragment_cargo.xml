@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="up to 5 Kg"
+        android:id="@+id/weight_1_btn"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/background_primary"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="up to 50 Kg"
+        android:id="@+id/weight_2_btn"
+        android:background="@drawable/background_lavender"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/weight_1_btn"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="up to 200 Kg"
+        android:id="@+id/weight_3_btn"
+        android:layout_below="@id/weight_2_btn"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/background_lavender"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="up to 500 Kg"
+        android:id="@+id/weight_4_btn"
+        android:layout_below="@id/weight_3_btn"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/background_lavender"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Above 500 Kg"
+        android:id="@+id/weight_5_btn"
+        android:layout_below="@id/weight_4_btn"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/background_lavender"/>
+
+</RelativeLayout>

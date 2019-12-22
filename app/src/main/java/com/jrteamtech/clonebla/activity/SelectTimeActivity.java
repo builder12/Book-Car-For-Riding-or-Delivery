@@ -71,7 +71,8 @@ public class SelectTimeActivity extends AppCompatActivity implements View.OnClic
           Global.setSelected_time(Global.getSelected_time() + " " + changetime);
 
             if(activity_name.equals(StopOversActivity.class.getSimpleName())){
-                startActivity(new Intent(SelectTimeActivity.this, ThinkComfortActivity.class));
+//                startActivity(new Intent(SelectTimeActivity.this, ThinkComfortActivity.class));
+                startActivity(new Intent(SelectTimeActivity.this, DeliveryTypesAndWeightActivity.class));
             } else if(activity_name.equals(PublishReturnTripActivity.class.getSimpleName())) {
                 startActivity(new Intent(SelectTimeActivity.this, AddPublishRideActivity.class));
             } else {

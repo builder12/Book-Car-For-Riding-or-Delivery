@@ -15,9 +15,9 @@ import com.jrteamtech.clonebla.R;
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link Delivery_Bus_Fragment.OnFragmentInteractionListener} interface
+ * {@link Delivery_Cargo_Fragment.OnFragmentInteractionListener} interface
  * to handle interaction events.
- * Use the {@link Delivery_Bus_Fragment#newInstance} factory method to
+ * Use the {@link Delivery_Cargo_Fragment#newInstance} factory method to
  * create an instance of this fragment.
  */
 public class Delivery_Bus_Fragment extends Fragment {
@@ -42,11 +42,11 @@ public class Delivery_Bus_Fragment extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment Delivery_Bus_Fragment.
+     * @return A new instance of fragment Delivery_Cargo_Fragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static Delivery_Bus_Fragment newInstance(String param1, String param2) {
-        Delivery_Bus_Fragment fragment = new Delivery_Bus_Fragment();
+    public static Delivery_Cargo_Fragment newInstance(String param1, String param2) {
+        Delivery_Cargo_Fragment fragment = new Delivery_Cargo_Fragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);

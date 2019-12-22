@@ -10,10 +10,10 @@ import android.os.Bundle;
 
 import com.google.android.material.tabs.TabLayout;
 import com.jrteamtech.clonebla.R;
-import com.jrteamtech.clonebla.adapter.ViewPagerAdapter;
-import com.jrteamtech.clonebla.fragment.Delivery_Bus_Fragment;
-import com.jrteamtech.clonebla.fragment.Delivery_Cargo_Fragment;
-import com.jrteamtech.clonebla.fragment.Delivery_Plane_Fragment;
+import com.jrteamtech.clonebla.adapter.DeliveryTypesAndWeightAdapter;
+import com.jrteamtech.clonebla.fragment.DeliveryAutoFragment;
+import com.jrteamtech.clonebla.fragment.DeliveryCargoFragment;
+import com.jrteamtech.clonebla.fragment.DeliveryPlaneFragment;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -26,18 +26,42 @@ public class DeliveryTypesAndWeightActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_delivery_types_and_weight);
 
-        viewPager = (ViewPager) findViewById(R.id.viewpager);
-        setupViewPager(viewPager);
+        tabLayout=(TabLayout)findViewById(R.id.tabLayout);
+        viewPager=(ViewPager)findViewById(R.id.viewPager);
 
-        tabLayout = (TabLayout) findViewById(R.id.tabs);
-        tabLayout.setupWithViewPager(viewPager);
+        tabLayout.addTab(tabLayout.newTab().setText("Auto"));
+        tabLayout.addTab(tabLayout.newTab().setText("Cargo"));
+        tabLayout.addTab(tabLayout.newTab().setText("Plane"));
+        tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
+
+        final DeliveryTypesAndWeightAdapter adapter = new DeliveryTypesAndWeightAdapter(this,getSupportFragmentManager(), tabLayout.getTabCount());
+        viewPager.setAdapter(adapter);
+
+        viewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));
+
+        tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
+            @Override
+            public void onTabSelected(TabLayout.Tab tab) {
+                viewPager.setCurrentItem(tab.getPosition());
+            }
+
+            @Override
+            public void onTabUnselected(TabLayout.Tab tab) {
+
+            }
+
+            @Override
+            public void onTabReselected(TabLayout.Tab tab) {
+
+            }
+        });
     }
 
     private void setupViewPager(ViewPager viewPager) {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
-        adapter.addFragment(new Delivery_Plane_Fragment(), "ONE");
-        adapter.addFragment(new Delivery_Cargo_Fragment(), "TWO");
-        adapter.addFragment(new Delivery_Bus_Fragment(), "THREE");
+        adapter.addFragment(new DeliveryAutoFragment(), "ONE");
+        adapter.addFragment(new DeliveryCargoFragment(), "TWO");
+        adapter.addFragment(new DeliveryPlaneFragment(), "THREE");
         viewPager.setAdapter(adapter);
     }
 

@@ -37,7 +37,7 @@ public class DropOffActivity extends AppCompatActivity implements View.OnClickLi
                 finish();
                 break;
             case R.id.et_location_search:
-                Intent intent = new Intent(DropOffActivity.this, SearchActivity.class);
+                Intent intent = new Intent(DropOffActivity.this, StopOversActivity.class);
                 intent.putExtra(getResources().getString(R.string.activity_name), DropOffActivity.class.getSimpleName());
                 startActivity(intent);
                 break;

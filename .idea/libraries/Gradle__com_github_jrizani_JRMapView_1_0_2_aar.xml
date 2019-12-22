@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.jrizani:JRMapView:1.0.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fa4e68362b68952c76199d91a751ee4e/jetified-JRMapView-1.0.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fa4e68362b68952c76199d91a751ee4e/jetified-JRMapView-1.0.2/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.jrizani/JRMapView/1.0.2/984ceb133c0b485c369413710947c5998516eaca/JRMapView-1.0.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.jrizani/JRMapView/1.0.2/e2dca52b2fbf26b663d87058953d377dd691a9ba/JRMapView-1.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
